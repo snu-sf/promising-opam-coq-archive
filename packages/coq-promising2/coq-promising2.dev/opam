@@ -2,9 +2,9 @@ opam-version: "2.0"
 name: "coq-promising2"
 maintainer: "sunghwan.lee@sf.snu.ac.kr"
 synopsis: "Coq implementation of the Promising 2.0 semantics"
-homepage: "https://github.com/snu-sf/promising-coq-private/"
-dev-repo: "git+https://github.com/snu-sf/promising-coq-private.git"
-bug-reports: "https://github.com/snu-sf/promising-coq-private/issues/"
+homepage: "https://sf.snu.ac.kr/promising2.0/"
+dev-repo: "git+https://github.com/snu-sf/promising2-coq.git"
+bug-reports: "https://github.com/snu-sf/promising2-coq/issues/"
 authors: [
 ]
 build: [make "-j%{jobs}%" "build"]
@@ -17,5 +17,5 @@ depends: [
   "coq-promising-lib" { (= "dev") }
 ]
 url {
-  git: "https://github.com/snu-sf/promising-coq-private.git#v2"
+  git: "https://github.com/snu-sf/promising2-coq.git#master"
 }
