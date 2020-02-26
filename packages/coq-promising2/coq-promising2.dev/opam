@@ -6,6 +6,13 @@ homepage: "https://sf.snu.ac.kr/promising2.0/"
 dev-repo: "git+https://github.com/snu-sf/promising2-coq.git"
 bug-reports: "https://github.com/snu-sf/promising2-coq/issues/"
 authors: [
+  "Sung-Hwan Lee <sunghwan.lee@sf.snu.ac.kr>"
+  "Minki Cho <minki.cho@sf.snu.ac.kr>"
+  "Anton Podkopaev <podkopaev@mpi-sws.org>"
+  "Soham Chakraborty <soham@cse.iitd.ac.in>"
+  "Chung-Kil Hur <gil.hur@sf.snu.ac.kr>"
+  "Ori Lahav <orilahav@tau.ac.il>"
+  "Viktor Vafeiadis <viktor@mpi-sws.org>"
 ]
 build: [make "-j%{jobs}%" "build"]
 install: [make "-f" "Makefile.coq" "install"]
