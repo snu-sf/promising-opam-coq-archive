@@ -22,5 +22,5 @@ depends: [
   "coq-promising-lib" { (= "dev") }
 ]
 url {
-  git: "https://github.com/snu-sf/promising-coq.git#imm"
+  git: "https://github.com/snu-sf/promising-coq.git#master"
 }
