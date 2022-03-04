@@ -18,5 +18,5 @@ depends: [
   "coq-sflib" { (= "dev") }
 ]
 url {
-  git: "https://github.com/snu-sf/promising-lib.git#8.13"
+  git: "https://github.com/snu-sf/promising-lib.git#8.15"
 }
